@@ -1,0 +1,5 @@
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
