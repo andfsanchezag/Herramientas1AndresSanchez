@@ -25,5 +25,10 @@ namespace Proyecto
         public string Cedula { get => cedula; set => cedula = value; }
         public string Role { get => role; set => role = value; }
         internal List<Material> Prestamos { get => prestamos; set => prestamos = value; }
+
+        public override string ToString()
+        {
+            return "nombre: " + nombre + "\n" + "cedula : " + cedula + "\n" + "Role : " + role + "\n";
+        }
     }
 }

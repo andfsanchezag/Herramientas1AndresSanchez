@@ -22,15 +22,18 @@ namespace Proyecto
 
         internal Biblioteca Biblioteca { get => biblioteca; set => biblioteca = value; }
 
+        public bool validarRole(string role) {
+            return role=="Estudiante" || role == "Profesor" || role == "Administrativo";
+        }
 
-        public void CrearPersona(Persona persona) {
+
+        public string CrearPersona(Persona persona) {
             Persona existente = buscarPersona(persona.Cedula);
             if (existente != null) {
-                Console.WriteLine("ya existe una persona con esa cedula");
-                return;
+                return "ya existe una persona con esa cedula";
             }
             Biblioteca.Personas.Add(persona);
-            Console.WriteLine("se ha creado la persona");
+           return "se ha creado la persona";
         
         }
         public void EliminarPersona(string cedula)

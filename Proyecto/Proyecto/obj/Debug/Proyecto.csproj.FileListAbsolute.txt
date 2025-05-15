@@ -3,3 +3,9 @@ C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debu
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
