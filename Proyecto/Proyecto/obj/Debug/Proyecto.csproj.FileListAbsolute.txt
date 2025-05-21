@@ -8,4 +8,5 @@ C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\bin\Debu
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
-C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Personas.resources
+C:\Users\Usuario\Downloads\Herramientas1AndresSanchez\Proyecto\Proyecto\obj\Debug\Proyecto.Inicio.resources

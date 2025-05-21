@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto
 {
-    public partial class Form1 : Form
+    public partial class Personas : Form
 
     {
         private Servicios servicio;
-        public Form1()
+
+        internal Servicios Servicio { get => servicio; set => servicio = value; }
+
+        public Personas()
         {
             InitializeComponent();
-            this.servicio = new Servicios(new Biblioteca(new List<Persona>(), new List<Material>(), new List<Movimiento>()));
 
         }
 
@@ -40,14 +42,14 @@ namespace Proyecto
                 MessageBox.Show("la cedula no puede ser vacio");
                 return;
             }
-            if (!servicio.validarRole(role))
+            if (!Servicio.validarRole(role))
             {
                 MessageBox.Show("el role debe ser Estudiante, Administrativo o Profesor");
                 return;
             }
             List<Material> prestamos = new List<Material>();
             Persona persona = new Persona(nombre, cedula, role, prestamos);
-            MessageBox.Show(this.servicio.CrearPersona(persona));
+            MessageBox.Show(this.Servicio.CrearPersona(persona));
             Nombre.ResetText();
             Cedula.ResetText();
             Role.ResetText();
@@ -61,6 +63,19 @@ namespace Proyecto
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        internal void SetServicio(Servicios servicio)
+        {
+            this.servicio = servicio;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.SetServicio(this.servicio);
+            inicio.Show();
+            this.Hide();
         }
     }
 }

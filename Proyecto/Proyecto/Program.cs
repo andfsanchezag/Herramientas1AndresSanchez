@@ -16,7 +16,10 @@ namespace Proyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Servicios servicio = new Servicios(new Biblioteca(new List<Persona>(), new List<Material>(), new List<Movimiento>()));
+            Personas personas = new Personas();
+            personas.SetServicio(servicio);
+            Application.Run(personas);
         }
     }
 }
